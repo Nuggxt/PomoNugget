@@ -18,26 +18,53 @@
 		<div class="logo">Study Timer</div>
 	</header>
 	<main>
-		<div class="pomo-card">
-			<div class="btns">
-				<div class="pomodoro">
-					<button>Pomodoro</button>
+		<div class="container">
+			<div class="pomo-card">
+				<div class="btns">
+					<div id="pomodoro">
+						<button>Pomodoro</button>
+					</div>
+					<div id="shortbr">
+						<button>Short Break</button>
+					</div>
+					<div id="longbr">
+						<button>Long Break</button>
+					</div>
 				</div>
-				<div class="shortbr">
-					<button>Short Break</button>
+				<div id="timer">
+					25:00
 				</div>
-				<div class="longbr">
-					<button>Long Break</button>
+				<div id="start-pause-btn">
+					<button id="start-btn">Start</button>
+					<button id="pause-btn">Pause</button>
 				</div>
 			</div>
-			<div class="timer">
-				25:00
-			</div>
-			<div class="stbtn">
-				<button id="start-btn">Start</button>
+	</main>
+	<div class="tasks-section">
+		<div class="task-title">
+			<h3>Tasks</h3>
+		</div>
+		<div class="main-tasks">
+			<button class="new-task-btn">+ New task</button>
+			<div class="tasks">
+
 			</div>
 		</div>
-	</main>
+	</div>
+	<div class="notes-section-main">
+		<div class="notes-title">
+			<h3>Notes</h3>
+		</div>
+		<div class="main-notes">
+			<button class="new-note-btn">+ New Note</button>
+			<div class="notes">
+
+			</div>
+		</div>
+	</div>
+	<footer>
+
+	</footer>
 	<script src="main.js"></script>
 </body>
 
