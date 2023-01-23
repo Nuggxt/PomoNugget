@@ -5,5 +5,12 @@
 
 
 // Timer input elements \\
-const startBtn = document.getElementById('start-btn');
-const pauseBtn = document.getElementById('pause-btn');
+let startBtn = document.querySelector('#start-btn');
+let pauseBtn = document.querySelector('#pause-btn');
+
+const timer = {
+    pomodoro: 25,
+    shortBreak: 5,
+    longBreak: 15,
+};
+

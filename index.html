@@ -15,7 +15,7 @@
 
 <body>
 	<header>
-		<div class="logo">Study Timer</div>
+		<div class="logo">PomoNugget</div>
 	</header>
 	<main>
 		<div class="container">
@@ -35,8 +35,8 @@
 					25:00
 				</div>
 				<div id="start-pause-btn">
-					<button id="start-btn">Start</button>
-					<button id="pause-btn">Pause</button>
+					<button id="start-clock">Start</button>
+					<button id="pause-clock">Pause</button>
 				</div>
 			</div>
 	</main>
@@ -45,7 +45,10 @@
 			<h3>Tasks</h3>
 		</div>
 		<div class="main-tasks">
-			<button class="new-task-btn">+ New task</button>
+			<div class="write-task">
+				<input type="text" name="new-task" id="write-task" placeholder="Write task">
+			</div>
+			<button class="new-task-btn">+ Add task</button>
 			<div class="tasks">
 
 			</div>
@@ -56,7 +59,10 @@
 			<h3>Notes</h3>
 		</div>
 		<div class="main-notes">
-			<button class="new-note-btn">+ New Note</button>
+			<div class="write-task">
+				<input type="text" name="new-note" id="write-note" placeholder="Write note">
+			</div>
+			<button class="new-note-btn">+ Add Note</button>
 			<div class="notes">
 
 			</div>

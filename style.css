@@ -11,8 +11,6 @@ body {
 	color: #c6d0f5;
 }
 
-.container {}
-
 header {
 	border-bottom: 2px solid #c6d0f5;
 	margin: auto;
@@ -69,7 +67,7 @@ button:active {
 	transform: scale(.97);
 }
 
-#start-btn, #pause-btn {
+#start-clock, #pause-clock {
 	font-size: 1.5rem;
 	margin: 5px;
 	margin-top: 30px;
@@ -83,6 +81,7 @@ button:active {
 #timer {
 	color: #303446;
 	font-size: 7rem;
+	font-weight: bolder;
 	margin-top: 5px;
 }
 
@@ -117,6 +116,13 @@ h3 {
 	margin-top: 20px;
 	border-radius: 15px;
 	font-size: 1rem;
+}
+
+#write-task, #write-note {
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #303446;
+	height: 25px;
 }
 
 footer {
