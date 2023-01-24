@@ -2,76 +2,76 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
-	<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9368/9368372.png">
-	<title>Study Timer | Pomodoro</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9368/9368372.png">
+  <title>Study Timer | Pomodoro</title>
 </head>
 
 <body>
-	<header>
-		<div class="logo">PomoNugget</div>
-	</header>
-	<main>
-		<div class="container">
-			<div class="pomo-card">
-				<div class="btns">
-					<div id="pomodoro">
-						<button>Pomodoro</button>
-					</div>
-					<div id="shortbr">
-						<button>Short Break</button>
-					</div>
-					<div id="longbr">
-						<button>Long Break</button>
-					</div>
-				</div>
-				<div id="timer">
-					25:00
-				</div>
-				<div id="start-pause-btn">
-					<button id="start-clock">Start</button>
-					<button id="pause-clock">Pause</button>
-				</div>
-			</div>
-	</main>
-	<div class="tasks-section">
-		<div class="task-title">
-			<h3>Tasks</h3>
-		</div>
-		<div class="main-tasks">
-			<div class="write-task">
-				<input type="text" name="new-task" id="write-task" placeholder="Write task">
-			</div>
-			<button class="new-task-btn">+ Add task</button>
-			<div class="tasks">
+  <header>
+    <div class="logo">PomoNugget</div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="pomo-card">
+        <div class="btns">
+          <div id="pomodoro" onclick="pomoBtn()">
+            <button>Pomodoro</button>
+          </div>
+          <div id="shortbr" onclick="shortBtn()">
+            <button>Short Break</button>
+          </div>
+          <div id="longbr" onclick="longBtn()">
+            <button>Long Break</button>
+          </div>
+        </div>
+        <div id="timer">
+          Ready?
+        </div>
+        <div id="start-pause-btn">
+          <button id="start-clock">Start</button>
+          <button id="pause-clock">Pause</button>
+        </div>
+      </div>
+  </main>
+  <div class="tasks-section">
+    <div class="task-title">
+      <h3>Tasks</h3>
+    </div>
+    <div class="main-tasks">
+      <div class="write-task">
+        <input type="text" name="new-task" id="write-task" placeholder="Write task">
+      </div>
+      <button class="new-task-btn">+ Add task</button>
+      <div class="tasks">
 
-			</div>
-		</div>
-	</div>
-	<div class="notes-section-main">
-		<div class="notes-title">
-			<h3>Notes</h3>
-		</div>
-		<div class="main-notes">
-			<div class="write-task">
-				<input type="text" name="new-note" id="write-note" placeholder="Write note">
-			</div>
-			<button class="new-note-btn">+ Add Note</button>
-			<div class="notes">
+      </div>
+    </div>
+  </div>
+  <div class="notes-section-main">
+    <div class="notes-title">
+      <h3>Notes</h3>
+    </div>
+    <div class="main-notes">
+      <div class="write-task">
+        <input type="text" name="new-note" id="write-note" placeholder="Write note">
+      </div>
+      <button class="new-note-btn">+ Add Note</button>
+      <div class="notes">
 
-			</div>
-		</div>
-	</div>
-	<footer>
+      </div>
+    </div>
+  </div>
+  <footer>
 
-	</footer>
-	<script src="main.js"></script>
+  </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
