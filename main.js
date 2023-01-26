@@ -1,8 +1,3 @@
-//  Get the timer working on start click for Pomodoro section.
-//  Get the short and long break to swtich times Short(5 min) long (15 min)
-//  Get the short and long timers working.
-
-
 
 // Timer input elements \\
 let startBtn = document.querySelector('#start-btn');
@@ -24,4 +19,3 @@ function shortBtn() {
 function longBtn() {
   document.getElementById('timer').innerHTML = longButton;
 };
-

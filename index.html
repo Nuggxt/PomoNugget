@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9368/9368372.png">
-  <title>Study Timer | Pomodoro</title>
+  <title>PomoNugget</title>
 </head>
 
 <body>
@@ -32,7 +32,17 @@
           </div>
         </div>
         <div id="timer">
-          Ready?
+          <div id="time">
+            <div id="minutes">
+              0
+            </div>
+            <div id="colon">
+              :
+            </div>
+            <div id="seconds">
+              00
+            </div>
+          </div>
         </div>
         <div id="start-pause-btn">
           <button id="start-clock">Start</button>
@@ -46,9 +56,11 @@
     </div>
     <div class="main-tasks">
       <div class="write-task">
-        <input type="text" name="new-task" id="write-task" placeholder="Write task">
+        <form id="new-task-form">
+          <input type="text" name="new-task" id="write-task" placeholder="Write task">
+          <input type="submit" value="+ Task" id="new-task-submit">
+        </form>
       </div>
-      <button class="new-task-btn">+ Add task</button>
       <div class="tasks">
 
       </div>
@@ -59,10 +71,12 @@
       <h3>Notes</h3>
     </div>
     <div class="main-notes">
-      <div class="write-task">
-        <input type="text" name="new-note" id="write-note" placeholder="Write note">
+      <div class="write-note">
+        <form action="">
+          <input type="text" name="new-note" id="write-note" placeholder="Write note">
+          <input type="submit" value="+ Note" id="new-note-submit">
+        </form>
       </div>
-      <button class="new-note-btn">+ Add Note</button>
       <div class="notes">
 
       </div>

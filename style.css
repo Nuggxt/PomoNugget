@@ -67,7 +67,8 @@ button:active {
 	transform: scale(.97);
 }
 
-#start-clock, #pause-clock {
+#start-clock,
+#pause-clock {
 	font-size: 1.5rem;
 	margin: 5px;
 	margin-top: 5px;
@@ -83,8 +84,12 @@ button:active {
 	font-size: 7rem;
 	font-weight: bolder;
 	margin-top: 5px;
-  height: 150px;
-  width: auto;
+	height: 150px;
+	width: auto;
+}
+
+#time {
+	display: flex;
 }
 
 .tasks-section,
@@ -112,15 +117,22 @@ h3 {
 	border-bottom: 2px solid #232634;
 }
 
-.new-task-btn, .new-note-btn {
+#new-task-submit,
+#new-note-submit {
 	background-color: #303446;
 	color: #c6d0f5;
+	border: none;
+	margin: 15px;
 	margin-top: 20px;
-	border-radius: 15px;
+	width: 100px;
+	height: 30px;
+	border-radius: 20px;
 	font-size: 1rem;
+	cursor: pointer;
 }
 
-#write-task, #write-note {
+#write-task,
+#write-note {
 	border: none;
 	background-color: transparent;
 	border-bottom: 1px solid #303446;
