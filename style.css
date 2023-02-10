@@ -12,7 +12,7 @@ body {
 }
 
 header {
-	border-bottom: 2px solid #c6d0f5;
+	border-bottom: 1px solid #c6d0f5;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -24,6 +24,10 @@ header {
 
 .logo {
 	font-size: 2rem;
+}
+
+.login-img {
+	width: 30px;
 }
 
 .pomo-card {
