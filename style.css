@@ -9,6 +9,10 @@
 body {
 	background-color: #303446;
 	color: #c6d0f5;
+	max-width: 600px;
+	min-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header {
@@ -17,9 +21,8 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 600px;
-	min-width: 400px;
 	height: 75px;
+
 }
 
 .logo {
@@ -37,8 +40,6 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-width: 600px;
-	min-width: 400px;
 	height: 350px;
 	margin: auto;
 	margin-top: 50px;
@@ -100,8 +101,6 @@ button:active {
 .notes-section-main {
 	background-color: #c6d0f5;
 	border-radius: 2rem;
-	max-width: 600px;
-	min-width: 400px;
 	height: 600px;
 	margin: auto;
 	margin-top: 80px;
@@ -116,9 +115,9 @@ button:active {
 h3 {
 	font-size: 2rem;
 	font-style: italic;
-	/* border: 1px solid red; */
 	padding: 15px;
-	border-bottom: 2px solid #232634;
+	border-bottom: 1px solid #232634;
+	overflow: hidden scroll;
 }
 
 #new-task-submit,
@@ -141,8 +140,27 @@ h3 {
 	background-color: transparent;
 	border-bottom: 1px solid #303446;
 	height: 25px;
+	
+}
+
+#newTask {
+	margin-top: 15px;
+	text-align: start;
+	background-color: #303446;
+	color: #c6d0f5;
+	padding: 10px;
+	border-radius: 15px;
+	font-size: 1rem;
+}
+
+#newTask:hover {
+	transform: scale(1.02);
+	transition: ease-in-out .5s;
+	box-shadow:  0 10px 30px black;
 }
 
 footer {
-	height: 200px;
+	margin-top: 50px;
+	text-align: center;
+	height: 100px;
 }
